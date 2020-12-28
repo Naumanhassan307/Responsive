@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #parent{
-    background-color: red;
+   
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -21,4 +21,9 @@
     flex: 50%;
     font-size: 50px;
     padding: 10px;
+}
+@media screen and (max-width:600px){
+    #parent{
+        flex-direction: column;
+    }
 }
