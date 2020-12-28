@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#parent{
+    background-color: red;
+    display: flex;
+}
